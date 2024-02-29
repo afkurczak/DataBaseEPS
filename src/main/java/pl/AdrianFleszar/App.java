@@ -1,13 +1,10 @@
 package pl.AdrianFleszar;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Eps eps = new Eps(1,2,"BO2E", "OK");
+        System.out.println( eps.toString());
     }
 }
